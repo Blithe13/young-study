@@ -1,0 +1,27 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /studymybatis
+spring:
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/test-yzc-dev?useUnicode=true&serverTimezone=GMT&useSSL=false&characterEncoding=utf8
+    username: root
+    password: yang0515
+  redis:
+    database: 0
+    host: 127.0.0.1
+    port: 6379
+    password: yang0515
+    connect-timeout: 1000ms
+    lettuce:
+      pool:
+        max-active: 20
+        max-wait: -1
+        max-idle: 8
+        min-idle: 0
+mybatis-plus:
+  #mybatis-plus默认当xml文件和mapper文件在同一目录下，才能映射成功。如果xml文件在其他目录下，需要以下配置专门指定目录
+  mapper-locations: classpath*:/com/yzc/spring5/*/mapper/xml/*.xml
+  executor-type: simple

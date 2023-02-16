@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/java-basics/java-basics.iml" filepath="$PROJECT_DIR$/java-basics/java-basics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring5-study/spring5-study.iml" filepath="$PROJECT_DIR$/spring5-study/spring5-study.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/young-study.iml" filepath="$PROJECT_DIR$/.idea/young-study.iml" />
     </modules>
   </component>

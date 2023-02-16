@@ -1,0 +1,9 @@
+server:
+  port: 9081
+  servlet:
+    context-path: /springstudy
+spring:
+  profiles:
+    active: develop
+  application:
+    name: study-mybatis
